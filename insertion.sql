@@ -49,6 +49,11 @@ insert into Zakaz (id,Tour_id,Client_id,Cost)
 insert into Zakaz (id,Tour_id,Client_id,Cost)
 	 values (3, 3, 3, 6000);
 
+insert into Zakaz (id,Tour_id,Client_id,Cost)
+	 values (100005, 3, 3, 6000);
+insert into Zakaz (id,Tour_id,Client_id,Cost)
+	 values (100006, 3, 3, 6000);
+
 insert into Hotel (id, Zakaz_id, Room_id) values (1, 1, 1);
 insert into Hotel (id, Zakaz_id, Room_id) values (2, 2, 2);
 insert into Hotel (id, Zakaz_id, Room_id) values (3, 3, 3);
